@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Search Algorithms</title>
+    <title>Algorithms</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Search Algorithms</h1>
+      <h1>Algorithms</h1>
       <div class="search-options">
         <button id="linear-search-btn">Linear Search</button>
         <button id="binary-search-btn">Binary Search</button>
+        <button id="bubble-short-btn">Bubble Short</button>
       </div>
       <div id="linear-search-form" class="search-form">
         <h2>Linear Search</h2>
@@ -27,6 +28,7 @@
         />
         <button id="linear-search-submit">Search</button>
       </div>
+
       <div id="binary-search-form" class="search-form">
         <h2>Binary Search</h2>
         <select id="sort-order">
@@ -45,6 +47,20 @@
         />
 
         <button id="binary-search-submit">Search</button>
+      </div>
+      <div id="bubble-short-form" class="search-form">
+        <h2>Bubble Short</h2>
+        <input
+          type="text"
+          id="bubble-input-array"
+          placeholder="Enter array"
+        />
+        <select id="sort-order">
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+        </select>
+
+        <button id="bubble-short-submit">Search</button>
       </div>
       <div id="result"></div>
     </div>
